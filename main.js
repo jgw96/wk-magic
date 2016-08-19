@@ -2,9 +2,9 @@ function magic() {
     // test for indexeddb
     if (window.indexedDB) {
         // wkwebview
-        alert ('You are on ios 10 pwa in safari, cordova etc');
-        if (window.applePaySession === undefined) {
-            alert ('You are on a pwa added to the homescreen');
+        alert ('You are on ios 10: pwa in safari, cordova etc');
+        if (window.ApplePaySession === undefined) {
+            alert ('You are on a pwa added to homescreen')
         }
     } else {
         // no wkwebview

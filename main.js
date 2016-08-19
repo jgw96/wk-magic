@@ -11,3 +11,5 @@ function magic() {
         alert ('You are on ios 9 cordova or ios 8 anything');
     }
 }
+
+magic();
